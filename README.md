@@ -1,4 +1,7 @@
 # MedStudy Assistant
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Status](https://img.shields.io/badge/status-under_development-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 An open-source project that helps medical students organize learning objectives, summarize medical references, and generate interactive study materials using AI.
 
