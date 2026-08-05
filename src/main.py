@@ -1,18 +1,31 @@
 """
-Main application entry point.
-
-Project:
 MedStudy Assistant
+
+An AI-powered learning assistant for medical students.
 
 Author:
 Muhammad Hasyim Ashari
 
-Status:
-Under Development
+Version:
+0.1.0
 """
 
+
+class MedStudyAssistant:
+    def __init__(self):
+        self.version = "0.1.0"
+
+    def start(self):
+        print("=" * 40)
+        print("MedStudy Assistant")
+        print(f"Version: {self.version}")
+        print("Status: Under Development")
+        print("=" * 40)
+
+
 def main():
-    print("MedStudy Assistant")
+    app = MedStudyAssistant()
+    app.start()
 
 
 if __name__ == "__main__":
